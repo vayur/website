@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" x-data="{ images: ['bg1.jpeg', 'bg2.jpg', 'bg3.jpg'], currentIndex: 0, changeBackground() { setInterval(() => { this.currentIndex = (this.currentIndex + 1) % this.images.length; }, 5000); } }" x-init="changeBackground()">
+<html lang="en" x-data="{ images: ['bg1.jpeg'], currentIndex: 0, changeBackground() { setInterval(() => { this.currentIndex = (this.currentIndex + 1) % this.images.length; }, 5000); } }" x-init="changeBackground()">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
